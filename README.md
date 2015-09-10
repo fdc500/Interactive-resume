@@ -1,3 +1,7 @@
+Felipe:
+Esta es la versión final sometida a evalaución en Udacity.
+Correcciones del profesor realizadas a esta versión. 
+
 ## How do I complete this project?
 
 1. Go to the [Javascript Basics course](https://www.udacity.com/course/ud804) and select "View Course Materials."

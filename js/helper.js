@@ -26,7 +26,7 @@ var HTMLlocation = '<li class="flex-item"><span class="red-text">location</span>
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
-var HTMLskillsStart = '<h3 id="skillsH3" class="red-text">Skills at a Glance:</h3>';
+var HTMLskillsStart = '<h3 id="skillsH3" class="red-text skill">Skills at a Glance:</h3>';
 var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry">';
@@ -53,10 +53,10 @@ var HTMLonlineClasses = '<h3>Online Classes:</h3>';
 var HTMLonlineTitle = '<a id="onlineCourse" class="red-text" href="#">%data%';
 var HTMLonlineSchool = ' - %data%</a>';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
-var HTMLonlineURL = '<br><a id="url" href="#">%data%</a>';
+var HTMLonlineURL = '<br><a id="url" class="url" href="#">%data%</a>';
 
 var internationalizeButton = '<button>Internationalize</button>';
-var googleMap = '<div id="map"></div>';
+var googleMap = '<div id="map" class="map"></div>';
 
 
 /*
