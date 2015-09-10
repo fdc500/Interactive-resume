@@ -1,0 +1,296 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.education-entry, 
+.work-entry, 
+.project-entry {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: "Lato", sans-serif;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 46px;
+	line-height: 60px;
+	display: inline;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: "Lato", sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 30px;
+	color: #9c0803;
+	line-height: 29px;
+}
+
+h3 {
+	font-style: italic;
+	font-size: 20px;
+	color: #000;
+	line-height: 22px;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 14px;
+	color: #4a4a4a;
+	line-height: 17px;
+	font-weight: 400;
+}
+
+h2, 
+h3, 
+h4, 
+h5 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "Lato", sans-serif;
+}
+
+.date-text {
+	font-size: 16px;
+	font-weight: 400;
+	color: #999;
+	line-height: 16px;
+	float: left;
+	font-family: "Lato", sans-serif;
+}
+
+.location-text {
+	font-size: 16px;
+	font-weight: 400;
+	color: #999;
+	line-height: 16px;
+	float: right;
+	font-family: "Lato", sans-serif;
+}
+
+p {
+	font-size: 14px;
+	color: #333;
+	line-height: 21px;
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	font-weight: 300;
+	font-size: 25px;
+	text-decoration: none;
+	margin-top: 10px;
+	display: block;
+	padding-bottom: 5px;
+	font-family: "Lato", sans-serif;
+}
+
+hr {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.url {
+	color: #1199c3;
+	font-weight: 300;
+	font-size: 1.2em;
+	text-decoration: none;
+	margin-top: 10px;
+	display: block;
+	padding-bottom: 5px;
+}
+
+.welcome-message {
+	font-style: italic;
+	font-size: 18px;
+	color: #f3f3f3;
+	line-height: 28px;
+	font-family: "Lato", sans-serif;
+}
+
+.skill {
+	padding-left: 0;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: "Lato", sans-serif;
+}
+
+.orange {
+	background-color: #f5ae23;
+}
+
+.dark-red {
+	background-color: #9c0803;
+}
+
+.orange-text {
+	color: #f5ae23;
+}
+
+.red-text {
+	color: #ff0d04;
+}
+
+.white-text {
+	font-weight: bold;
+	color: #fff;
+}
+
+.gray {
+	background-color: #f3f3f3;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.gray2 {
+	background-color: #e8e8e8;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.white {
+	background-color: #fff;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.dark-gray {
+	background-color: #4a4a4a;
+}
+
+.header {
+	background: url(atardecer3.jpg) #484848;
+	background-attachment: fixed;
+}
+
+.flex-box {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.center-content {
+	padding-top: 2.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2.5%
+}
+
+ul {
+	list-style-type: none;
+}
+
+.semi-background {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.6);
+}
+
+
+.biopic {
+	float: left;
+	padding: 10px;
+	width: 200px;
+	display: none;
+}
+
+img {
+	padding: 10px;
+}
+
+.chart div {
+	background-color: #4a4a4a;
+	text-align: right;
+	padding: 3px;
+	margin: 1px;
+	height: 12px;
+	color: white;
+	display: inline-block;
+}
+
+span {
+	padding: 5px;
+	font-family: "Lato", sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .top-margin {
+		margin-top: 2.5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+		width: 175px;
+  }
+	.welcome-message {
+		font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+	#topContacts {
+		display: none;
+	}
+	.header {
+		background: url(atardecer-small.jpg) #484848;
+		background-attachment: fixed;
+	}
+  #letsConnect {
+		margin-top: 10%;
+  }
+  .biopic {
+		width: 150px;
+  }
+  .welcome-message {
+		display: none;
+  }
+  a {
+		font-size: 20px;
+  }
+  h1 {
+		font-size: 30px;
+  }
+  
+  h2 {
+		font-size: 22px;
+  }
+}
+
+.map {
+	display: block;
+	height: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.map-div {
+	height: 400px;
+	width: 100%;
+	padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  .skill,
+  .biopic {
+		display: block;
+  }
+}
